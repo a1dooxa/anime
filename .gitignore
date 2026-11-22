@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+history.json
+history.json.tmp
+events.jsonl
+reports/raw/
+reports/

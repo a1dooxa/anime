@@ -1,0 +1,4 @@
+#!/bin/bash
+# anime [название] — поиск по всем источникам, выбор тайтла, серии и озвучки, смотреть в IINA.
+D="$(cd "$(dirname "$0")/.." && pwd)"
+exec "$D/.venv/bin/python" "$D/anime.py" "$@"
